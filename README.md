@@ -22,3 +22,12 @@ Before running this project, ensure you have the following software installed:
 To get started with this project, first clone the repository to your local machine:
 ```bash
 git clone https://github.com/kevinseya/languajeJava.git
+```
+### Run the image of Docker Hub
+
+You can pull and run it on any machine that has Docker installed.
+```bash
+docker push kevinseya/languaje-java-app:latest
+
+docker run -p 8080:8080 kevinseya/languaje-java-app:latest
+```
