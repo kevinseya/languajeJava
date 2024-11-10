@@ -25,7 +25,7 @@ git clone https://github.com/kevinseya/languajeJava.git
 ```
 ### Run the image of Docker Hub
 
-You can pull and run it on any machine that has Docker installed.
+You can pull and run it on any machine that has Docker installed
 ```bash
 docker push kevinseya/languaje-java-app:latest
 
