@@ -29,5 +29,5 @@ You can pull and run it on any machine that has Docker installed
 ```bash
 docker push kevinseya/languaje-java-app:latest
 
-docker run -p 8080:8080 kevinseya/languaje-java-app:latest
+docker run -p 8001:8001 kevinseya/languaje-java-app:latest
 ```

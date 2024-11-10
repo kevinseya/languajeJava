@@ -18,7 +18,7 @@ COPY src /app/src
 RUN mvn clean package -DskipTests
 
 # Exponer el puerto en el que la aplicación correrá
-EXPOSE 8080
+EXPOSE 8001
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "/app/target/languajeJava-0.0.1-SNAPSHOT.jar"]
