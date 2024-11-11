@@ -23,6 +23,13 @@ To get started with this project, first clone the repository to your local machi
 ```bash
 git clone https://github.com/kevinseya/languajeJava.git
 ```
+
+### 2. Run the application:
+After cloning, you can start the application by navigating to the project directory and using Maven to run it:
+```bash
+mvn spring-boot:run
+```
+
 ### Run the image of Docker Hub
 
 You can pull and run it on any machine that has Docker installed
@@ -31,3 +38,9 @@ docker push kevinseya/languaje-java-app:latest
 
 docker run -p 8001:8001 kevinseya/languaje-java-app:latest
 ```
+### Usage
+Once the application is running, you can access it at http://localhost:8001.
+
+### Deployed in service PAAS Digital Ocean
+
+https://languaje-java-j8l5j.ondigitalocean.app/
