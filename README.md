@@ -34,7 +34,7 @@ mvn spring-boot:run
 
 You can pull and run it on any machine that has Docker installed
 ```bash
-docker push kevinseya/languaje-java-app:latest
+docker pull kevinseya/languaje-java-app:latest
 
 docker run -p 8001:8001 kevinseya/languaje-java-app:latest
 ```
