@@ -27,7 +27,7 @@ jobs:
 
       - name: Pull Docker image from Docker Hub
         run: |
-          docker pull kevinseya/languaje-java-app:latest
+          docker pull kevinseya/languaje-java-app
 
       - name: SSH into EC2 and update container
         run: |
@@ -38,10 +38,7 @@ jobs:
               sudo systemctl start docker
             fi
           
-            # Detener y eliminar el contenedor anterior
-            sudo docker stop my-app || true
-            sudo docker rm my-app || true
-          
             # Ejecutar el contenedor con la nueva imagen
-            sudo docker run -d --name my-app -p 80:80 kevinseya/languaje-java-app:latest
+            echo "corriendo app"
+            sudo docker run -d -p 80:80 kevinseya/languaje-java-app:latest
           EOF
