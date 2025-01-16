@@ -44,3 +44,7 @@ Once the application is running, you can access it at http://localhost:8001.
 ### Deployed in service PAAS Digital Ocean
 
 https://languaje-java-j8l5j.ondigitalocean.app/
+
+### CI/CD 
+Continuous deployment using workflow for the qa branch and the main branch
+
